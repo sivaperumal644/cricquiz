@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.siva.cricquizapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icc"
+        android:label="CRICQUIZ"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".International"
+            android:label="International Quiz" />
+        <activity
+            android:name=".India"
+            android:label="India Quiz" />
+        <activity
+            android:name=".Ipl"
+            android:label="IPL Quiz" />
+        <activity
+            android:name=".ranji"
+            android:label="Ranji Trophy Quiz" />
+        <activity
+            android:name=".vijay"
+            android:label="Vijay Hazare Trophy Quiz" />
+        <activity android:name=".InternationResult" />
+        <activity android:name=".IndiaResult" />
+        <activity android:name=".IplResult" />
+        <activity android:name=".RanjiResult" />
+        <activity android:name=".vijayResult" />
+        <activity android:name=".list"></activity>
+    </application>
+
+</manifest>

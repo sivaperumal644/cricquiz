@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.siva.cricquizapp.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/cricket"
+        android:scaleType="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CRICKET QUIZ"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="10dp"
+        android:textSize="50sp"
+        android:textColor="#2f00ff"/>
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="START"
+        android:background="#ff20"
+        android:layout_marginTop="160dp"
+        android:onClick="startApp"/>
+
+    <Button
+        android:id="@+id/exit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EXIT"
+        android:background="#62ff00"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp" />
+
+</RelativeLayout>
